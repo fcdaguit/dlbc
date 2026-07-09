@@ -13,8 +13,8 @@
 const CMS_CONFIG = {
   // Replace SHEET_ID with your published Google Sheet ID once set up.
   // guide.html walks through getting these two URLs step by step.
-  sermonsCsvUrl:   "https://docs.google.com/spreadsheets/d/e/SHEET_ID/pub?gid=SERMONS_GID&single=true&output=csv",
-  activitiesCsvUrl:"https://docs.google.com/spreadsheets/d/e/SHEET_ID/pub?gid=ACTIVITIES_GID&single=true&output=csv",
+  sermonsCsvUrl:   "https://docs.google.com/spreadsheets/d/e/2PACX-1vROirhPwT8E2snKlRUSQsaRh23t3Je8tMk3QEFtHsMJ4eT2Paex5VyBfIZIl346AWg_AW6K2k8teKX3/pub?gid=0&single=true&output=csv",
+  activitiesCsvUrl:"https://docs.google.com/spreadsheets/d/e/2PACX-1vROirhPwT8E2snKlRUSQsaRh23t3Je8tMk3QEFtHsMJ4eT2Paex5VyBfIZIl346AWg_AW6K2k8teKX3/pub?gid=1783873046&single=true&output=csv",
   isConfigured: false // app.js flips this on automatically once the URLs above are edited
 };
 CMS_CONFIG.isConfigured = !CMS_CONFIG.sermonsCsvUrl.includes("SHEET_ID");
